@@ -3,36 +3,13 @@
 <div align="center">
 <img src="logo.png" height="90px" width="auto" /> 
 <h2>
-    <em>Portfolio</em> minimalista de Francisco José García
+    <em>Portfolio</em> minimalist by Francisco José García
 </h2>
 <p>
-Desarrollador Full Stack & Abogado
+Full Stack Developer & Lawyer
 </p>
 
 </div>
-
-<div align="center">
-    <a href="#🚀-empezar">
-        Empezar
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#🧞-comandos">
-        Comandos
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#🔑-licencia">
-        Licencia
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="https://linkedin.com/in/francisco--garcia/">
-        LinkedIn
-    </a>
-   
-</div>
-
-<p></p>
-
-<div align="center">
 
 ![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)
@@ -41,71 +18,61 @@ Desarrollador Full Stack & Abogado
 
 </div>
 
-<img src="portada.png"></img>
-
 ## 🛠️ Stack
 
-- [**Astro**](https://astro.build/) - El framework web de la nueva época.
-- [**Typescript**](https://www.typescriptlang.org/) - JavaScript con sintaxis de tipado.
-- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Menu desplegable con atajos de teclado hecho en puro Javascript.
+- [**Astro**](https://astro.build/) - The web framework for the new era.
+- [**TypeScript**](https://www.typescriptlang.org/) - JavaScript with typing syntax.
+- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Dropdown menu with keyboard shortcuts made in pure JavaScript.
 
-## 🚀 Empezar
+## 🚀 Getting Started
 
-### 1. Clona el repositorio
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/FranciscoJoseGarcia/minimalist-portfolio-json.git
-cd minimalist-portfolio-json
+git clone https://github.com/FranciscoJoseGarcia/Portfolio.git
+cd Portfolio
 ```
 
-### 2. Instala las dependencias
+### 2. Install dependencies
 
 ```bash
-# Usando npm
+# Using npm
 npm install
 
-# O usando pnpm (recomendado)
+# Or using pnpm
 pnpm install
 ```
 
-### 3. Lanza el servidor de desarrollo:
+### 3. Start the development server:
 
 ```bash
-# Usando npm
+# Using npm
 npm run dev
 
-# O usando pnpm
+# Or using pnpm
 pnpm dev
 ```
 
-### 4. Abre tu navegador
+### 4. Open your browser
 
-Abre [**http://localhost:4321**](http://localhost:4321/) en tu navegador para ver el resultado 🚀
+Open [**http://localhost:4321**](http://localhost:4321/) in your browser to see the result 🚀
 
-## 🧞 Comandos
+## 🧞 Commands
 
-|     | Comando          | Acción                                        |
+|     | Command          | Action                                        |
 | :-- | :--------------- | :-------------------------------------------- |
-| ⚙️  | `dev` o `start` | Lanza un servidor de desarrollo local en  `localhost:4321`.  |
-| ⚙️  | `build`          | Comprueba posibles errores y hace un empaquetado de producción en `./dist/`.      |
-| ⚙️  | `preview`        | Vista previa en local `localhost:4321` |
+| ⚙️  | `dev` or `start` | Starts a local development server on `localhost:4321`.  |
+| ⚙️  | `build`          | Checks for possible errors and creates a production build in `./dist/`.      |
+| ⚙️  | `preview`        | Local preview on `localhost:4321` |
 
-## 🌍 Características
+## 🌍 Features
 
-- **Multiidioma**: Soporte automático para español e inglés
-- **Responsive**: Diseño adaptativo para todos los dispositivos
-- **Imprimible**: Optimizado para generar PDFs
-- **Accesible**: Navegación por teclado y atajos
-- **Moderno**: Diseño minimalista y elegante
+- **Multi-language**: Automatic support for Spanish and English
+- **Responsive**: Adaptive design for all devices
+- **Printable**: Optimized for PDF generation
+- **Accessible**: Keyboard navigation and shortcuts
+- **Modern**: Minimalist and elegant design
 
-## 📝 Personalización
-
-Para personalizar el portfolio:
-
-1. Edita `cv.json` para el contenido en español
-2. Edita `cv_english.json` para el contenido en inglés
-3. Modifica `tsconfig.json` para cambiar entre idiomas
-4. Personaliza los estilos en los archivos `.astro`
 
 
 

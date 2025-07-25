@@ -30,7 +30,6 @@ Full Stack Developer & Lawyer
 
 ```bash
 git clone https://github.com/FranciscoJoseGarcia/Portfolio.git
-cd Portfolio
 ```
 
 ### 2. Install dependencies

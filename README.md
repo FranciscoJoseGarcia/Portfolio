@@ -3,16 +3,10 @@
 <div align="center">
 <img src="logo.png" height="90px" width="auto" /> 
 <h2>
-    <em>Résumé</em> minimalista maquetado para web y pdf
+    <em>Portfolio</em> minimalista de Francisco José García
 </h2>
 <p>
-Esquema del JSON de CV de <a href="https://jsonresume.org/schema/">jsonresume.org</a>
-</p>
-
-
-<p>
-Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a>
-
+Desarrollador Full Stack & Abogado
 </p>
 
 </div>
@@ -30,8 +24,8 @@ Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz J
         Licencia
     </a>
     <span>&nbsp;✦&nbsp;</span>
-    <a href="https://midu.dev">
-        Personal
+    <a href="https://linkedin.com/in/francisco--garcia/">
+        LinkedIn
     </a>
    
 </div>
@@ -41,10 +35,9 @@ Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz J
 <div align="center">
 
 ![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
-![GitHub stars](https://img.shields.io/github/stars/midudev/minimalist-portfolio-json)
-![GitHub issues](https://img.shields.io/github/issues/midudev/minimalist-portfolio-json)
-![GitHub forks](https://img.shields.io/github/forks/midudev/minimalist-portfolio-json)
-![GitHub PRs](https://img.shields.io/github/issues-pr/midudev/minimalist-portfolio-json)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?logo=vue.js&logoColor=4FC08D)
 
 </div>
 
@@ -56,35 +49,38 @@ Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz J
 - [**Typescript**](https://www.typescriptlang.org/) - JavaScript con sintaxis de tipado.
 - [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Menu desplegable con atajos de teclado hecho en puro Javascript.
 
-
 ## 🚀 Empezar
 
-### 1. Usa este [repo](https://github.com/midudev/minimalist-portfolio-json) como _template_ de un proyecto de Astro
-
-
-- Yo uso [pnpm](https://pnpm.io/installation) como gestor de dependencias y empaquetador.
+### 1. Clona el repositorio
 
 ```bash
-# Activa pnpm en MacOS, WSL & Linux:
-corepack enable
-corepack prepare pnpm@latest --activate
-
-# Inicializa el proyecto
-pnpm create astro@latest -- --template midudev/minimalist-portfolio-json
+git clone https://github.com/FranciscoJoseGarcia/minimalist-portfolio-json.git
+cd minimalist-portfolio-json
 ```
 
-### 2. Añade tu contenido:
-Edita el archivo `cv.json` para crear tu propio Portafolio/CV imprimible.
+### 2. Instala las dependencias
+
+```bash
+# Usando npm
+npm install
+
+# O usando pnpm (recomendado)
+pnpm install
+```
+
 ### 3. Lanza el servidor de desarrollo:
 
 ```bash
-# Disfruta del resultado
+# Usando npm
+npm run dev
+
+# O usando pnpm
 pnpm dev
 ```
 
+### 4. Abre tu navegador
 
-1. Abre [**http://localhost:4321**](http://localhost:4321/) en tu navegador para ver el resultado 🚀
-
+Abre [**http://localhost:4321**](http://localhost:4321/) en tu navegador para ver el resultado 🚀
 
 ## 🧞 Comandos
 
@@ -94,11 +90,23 @@ pnpm dev
 | ⚙️  | `build`          | Comprueba posibles errores y hace un empaquetado de producción en `./dist/`.      |
 | ⚙️  | `preview`        | Vista previa en local `localhost:4321` |
 
+## 🌍 Características
 
+- **Multiidioma**: Soporte automático para español e inglés
+- **Responsive**: Diseño adaptativo para todos los dispositivos
+- **Imprimible**: Optimizado para generar PDFs
+- **Accesible**: Navegación por teclado y atajos
+- **Moderno**: Diseño minimalista y elegante
 
-## 🔑 Licencia
+## 📝 Personalización
 
-[MIT](LICENSE.txt) - Creado por [**midudev**](https://midu.dev).
+Para personalizar el portfolio:
+
+1. Edita `cv.json` para el contenido en español
+2. Edita `cv_english.json` para el contenido en inglés
+3. Modifica `tsconfig.json` para cambiar entre idiomas
+4. Personaliza los estilos en los archivos `.astro`
+
 
 
 

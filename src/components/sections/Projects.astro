@@ -2,10 +2,13 @@
 import GitHub from "@/icons/GitHub.astro"
 import Section from "../Section.astro"
 
-import { projects } from "@cv"
+import { basics, projects } from "@cv"
+
+const isEnglish = basics.summary.startsWith("Full Stack")
+const title = isEnglish ? "Projects" : "Proyectos"
 ---
 
-<Section title="Proyectos">
+<Section title={title}>
   <ul>
     {
       projects.map(
@@ -15,9 +18,8 @@ import { projects } from "@cv"
               <article>
                 <header>
                   <h3>
-                    <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
-                      {name}
-                    </a>
+                    {/* El nombre del proyecto ya no es un enlace */}
+                    {name}
                     {isActive && <span>•</span>}
                     {github && (
                       <a

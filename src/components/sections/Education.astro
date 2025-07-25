@@ -1,10 +1,13 @@
 ---
 import Section from "../Section.astro"
 
-import { education } from "@cv"
+import { basics, education } from "@cv"
+
+const isEnglish = basics.summary.startsWith("Full Stack")
+const title = isEnglish ? "Education" : "Educación"
 ---
 
-<Section title="Educación">
+<Section title={title}>
   <ul>
     {
       education.map(({ institution, startDate, endDate, area }) => {

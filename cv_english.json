@@ -1,191 +1,148 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full-Stack developer with more than 15 years of experience & development content creator",
-    "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 years of experience as a web developer. Currently I am a content creator and development dommunicator. I live in Barcelona, Spain. I have worked in different environments: from accelerating the development of start-ups to leading teams in multinational companies.",
+    "name": "Francisco José García",
+    "label": "Full Stack developer & Lawyer",
+    "image": "profilePicture.jpeg",
+    "email": "franciscojgarcia1990@gmail.com",
+    "phone": "+5491151769482",
+    "url": "https://linkedin.com/in/francisco--garcia/",
+    "summary": "Full Stack Developer with experience in frontend and backend, specialized in modern technologies and agile methodologies. Lawyer with training in criminal law. Experience in web and mobile application development, API integration, performance optimization and work in multidisciplinary teams. Advanced English and native Spanish proficiency.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "Spain"
+      "postalCode": "",
+      "city": "Buenos Aires",
+      "countryCode": "AR",
+      "region": "Argentina"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "francisco--garcia",
+        "url": "https://linkedin.com/in/francisco--garcia/"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "FranciscoJoseGarcia",
+        "url": "https://github.com/FranciscoJoseGarcia"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Web programming communicator",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "Hotelinking",
+      "position": "Full Stack Developer",
+      "url": "https://www.hotelinking.com/",
+      "startDate": "2022-06-01",
+      "endDate": "2025-04-01",
+      "summary": "• Developed and maintained web and mobile applications, contributing to all phases of the software development lifecycle, from coding to deployment. • Resolved complex issues by managing tickets, debugging, and developing new features based on client requests. • Collaborated in Pull Request reviews, ensuring code quality and consistency through constructive feedback and adherence to best practices. • Implemented scalable, secure solutions on AWS Cloud, utilizing services such as Cognito, API Gateway, EC2, S3, RDS, and Lambda. • Managed relational and non-relational databases, including MySQL, DynamoDB, and Redis for caching and performance optimization. • Employed Bitbucket for version control and JIRA for issue tracking, improving team collaboration and project management efficiency. • Contributed to project documentation using Confluence, ensuring clear communication of technical specifications and project status. • Led CI/CD practices, automating testing, deployment, and integration processes to streamline development workflows. • Conducted unit and integration testing using Vitest and Cypress, ensuring application stability and robustness in various environments. • Coordinated with cross-functional teams to ensure smooth integration and consistent project delivery.",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "name": "Scale AI, Inc",
+      "position": "Full Stack Developer",
+      "url": "https://scale.com/",
+      "startDate": "2024-02-01",
+      "endDate": "2024-07-01",
+        "summary": "• Trained and fine-tuned natural language AI models to autonomously analyze and resolve coding issues, improving the model’s problem-solving capabilities. • Developed and tested solutions for a variety of coding problems, ensuring high accuracy in issue diagnosis and resolution. • Collaborated with cross-functional teams to refine training datasets, contributing to the continuous improvement of AI models. • Utilized feedback from model outputs to enhance model performance and optimize the overall code analysis process. • Analyzed and documented model training results, providing insights for further optimization and development.",
+        "highlights": [
+        ""
+      ]
+    },
+    {
+      "name": "Viseven",
+      "position": "Frontend Developer",
+      "url": "https://viseven.com/",
+      "startDate": "2025-02-01",
       "endDate": null,
-      "summary": "Most watched development streamer in Spanish on Twitch. +1 million followers across all my social networks. Recognised by Google, Microsoft and GitHub for my impact on the development community.",
+      "summary": "• Developed 100+ reusable Vue.js components for FDA/EMA-compliant pharmaceutical applications. • Engineered interactive medical content using GSAP animations with 95% cross-browser compatibility. • Integrated REST APIs with Google Analytics to track 120+ global CRM campaigns. • Optimized legacy browser performance (IE11+) through vanilla JS, reducing load time by 40%.",
       "highlights": [
-        "Started the company"
+        ""
       ]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "I led a technical convergence between different products and migrated from a monolithic architecture to a more flexible and optimised one. I fostered best practices and performance culture improvements, as well as rapid delivery of value to users.",
+      "name": "Argentine Federal Justice",
+      "position": "Lawyer",
+      "url": "https://www.pjn.gov.ar/",
+      "startDate": "2011-04-01",
+      "endDate": "2022-12-01",
+      "summary": "• Conducted complex judicial investigations in criminal matters, applying critical thinking and analyzing documentation and jurisprudence. • Coordinated tasks with multidisciplinary teams to ensure compliance with legal deadlines and objectives. • Provided legal representation and criminal legal advice to numerous clients.",
       "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "I developed a geolocated news platform and an API to consume the information. Scaled services to support the load of over hundreds of thousands of requests per day. Cut delivery times and deployments to production by half. Collaborated with Mozilla and Telefónica to develop the first FirefoxOS TV app.",
-      "highlights": [
-        "Started the company"
+        ""
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
   "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Software Engineer",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
+    "institution": "Plataforma 5",
+    "area": "Full Stack Developer",
+    "studyType": "Bootcamp",
+    "startDate": "2021-12-01",
+    "endDate": "2022-05-01"
+  },
+  {
+    "institution": "Austral University",
+    "area": "Criminal Law",
+    "studyType": "Master",
+    "startDate": "2015-02-01",
+    "endDate": "2016-12-01"
+  },
+  {
+    "institution": "Catholic University of Argentina",
+    "area": "Lawyer",
+    "studyType": "Degree",
+    "startDate": "2008-02-01",
+    "endDate": "2014-02-01"
   }],
   "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
+    "title": "",
+    "date": "",
+    "awarder": "",
+    "summary": ""
   }],
   "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
+    "name": "",
+    "date": "",
+    "issuer": "",
+    "url": ""
   }],
   "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
+    "name": "",
+    "publisher": "",
+    "releaseDate": "",
+    "url": "",
+    "summary": ""
   }],
   "skills": [
-    {
-      "name": "HTML",
-      "level": "Master",
-      "keywords": [
-        "Web development", "Frontend"
-      ]
-    },
-    {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": [
-        "Web development", "Frontend", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "Web development", "Frontend", "Backend", "Fullstack"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "CSS Framework", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "Backend", "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Backend", "JavaScript", "Servidor"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Advanced",
-      "keywords": [
-        "Bases de Datos", "SQL", "Database", "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Advanced",
-      "keywords": [
-        "Version control", "Colaboración", "Source code"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Advanced",
-      "keywords": [
-        "Version control", "Collaboration", "Source code", "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "JavaScript Library", "UI"
-      ]
-    }
+    { "name": "JavaScript", "level": "Advanced" },
+    { "name": "TypeScript", "level": "Advanced" },
+    { "name": "Node.js", "level": "Advanced" },
+    { "name": "Vue.js", "level": "Advanced" },
+    { "name": "React.js", "level": "Advanced" },
+    { "name": "Next.js", "level": "Advanced" },
+    { "name": "AWS (Lambda, EC2, S3, Cognito, RDS, API Gateway)", "level": "Intermediate" },
+    { "name": "Git", "level": "Advanced" },
+    { "name": "HTML", "level": "Advanced" },
+    { "name": "CSS/SASS", "level": "Advanced" },
+    { "name": "Tailwind", "level": "Advanced" },
+    { "name": "Laravel", "level": "Intermediate" },
+    { "name": "PHP", "level": "Intermediate" },
+    { "name": "Docker", "level": "Intermediate" },
+    { "name": "SQL", "level": "Intermediate" },
+    { "name": "PostgreSQL", "level": "Intermediate" },
+    { "name": "MongoDB", "level": "Intermediate" },
+    { "name": "MySQL", "level": "Intermediate" },
+    { "name": "Cypress.io", "level": "Intermediate" },
+    { "name": "Vitest", "level": "Intermediate" },
+    { "name": "CI/CD", "level": "Intermediate" },
+    { "name": "MEAN Stack", "level": "Intermediate" },
+    { "name": "Scrum", "level": "Intermediate" },
+    { "name": "Testing", "level": "Intermediate" },
+    { "name": "Effective communication", "level": "Advanced" },
+    { "name": "Analytical thinking", "level": "Advanced" },
+    { "name": "Problem solving", "level": "Advanced" },
+    { "name": "Leadership", "level": "Intermediate" },
+    { "name": "Legal research", "level": "Advanced" }
   ],
   "languages": [
     {
@@ -194,82 +151,98 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "C1- Advanced"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
+  "interests": [
+    { "name": "Sports", "keywords": ["football", "padel"] },
+    { "name": "Reading", "keywords": [] },
+    { "name": "Nature", "keywords": ["outdoor activities"] }
+  ],
   "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
+    "name": "",
+    "reference": ""
   }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "SportClub Frontend",
       "isActive": true,
-      "description": "Interactive story with programming challenges to travel to Mars",
+      "description": "Frontend for SportClub benefits application, developed with Vite, React, TypeScript and Tailwind CSS.",
       "highlights": [
-        "Choose your own adventure",
-        "In progress"
+        "Benefits list with pagination and search",
+        "Details for each benefit",
+        "Favorites system with local persistence",
+        "Responsive design",
+        "Modern and friendly interface"
       ],
-      "url": "https://mars.codes"
+      "github": "https://github.com/FranciscoJoseGarcia/sportclub-front"
     },
     {
-      "name": "AdventJS",
+      "name": "SportClub Backend",
       "isActive": true,
-      "description": "JavaScript programming challenges for every day of December until Christmas",
+      "description": "API developed in Node.js with TypeScript that provides access to SportClub benefits.",
       "highlights": [
-        "+1 million visits",
-        "Multilanguage",
-        "JavaScript & TypeScript"
+        "TypeScript for static typing and better maintainability",
+        "Express as server framework",
+        "Axios for HTTP requests to external API",
+        "Node-cache for in-memory caching",
+        "Winston for structured logging",
+        "Jest for unit and integration testing",
+        "CORS configured for security",
+        "Custom middlewares for logging and error handling",
+        "Pagination for benefits list"
       ],
-      "url": "https://advent.js/dev"
+      "github": "https://github.com/FranciscoJoseGarcia/sportclub-back"
     },
     {
-      "name": "Codember",
+      "name": "Gambet Frontend",
       "isActive": true,
-      "description": "Interactive programming game with challenges and secrets",
+      "description": "Prode-type application where users can predict sports results, compete in public or private tournaments and challenge their friends in a fun and simple way.",
       "highlights": [
-        "+2000 active users",
-        "Challenges for any language"
+        "React",
+        "Next.js",
+        "Redux",
+        "Material UI",
+        "React-intl"
       ],
-      "url": "https://codember.dev"
+      "github": "https://github.com/Tonic3Prode/Tonic3Prode-Front"
     },
     {
-      "name": "codi.link",
+      "name": "Gambet Backend",
       "isActive": true,
-      "description": "Playground of HTML, CSS and JavaScript code for sharing",
+      "description": "Prode-type application where users can predict sports results, compete in public or private tournaments and challenge their friends in a fun and simple way.",
       "highlights": [
-        "100k monthly visit",
-        "Developed by the community"
+        "MongoDB"
       ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
+      "github": "https://github.com/Tonic3Prode/Tonic3Prode-Back"
     },
     {
-      "name": "Pruebas Técnicas",
+      "name": "Hotelinking Challenge",
       "isActive": true,
-      "description": "List of technical tests of companies to practice programming",
+      "description": "Application where a user can view different products with promotional codes, get a code and redeem it in another view.",
       "highlights": [
-        "100% free",
-        "+500 community solutions"
+        "Developed with Laravel and MySQL"
       ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
+      "github": "https://github.com/FranciscoJoseGarcia/Hotelinking"
     },
     {
-      "name": "miduConf",
-      "description": "Streaming programming conference for the Spanish-speaking community with top talks",
+      "name": "DevGames3 Frontend",
+      "isActive": true,
+      "description": "Video game ecommerce.",
       "highlights": [
-        "+15k tickets handed over",
-        "+50k live viewers"
+        "React",
+        "Redux"
       ],
-      "url": "https://miduconf.com"
+      "github": "https://github.com/FranciscoJoseGarcia/eCommerce-Front"
+    },
+    {
+      "name": "DevGames3 Backend",
+      "isActive": true,
+      "description": "Video game ecommerce.",
+      "highlights": [
+        "Node.js"
+      ],
+      "github": "https://github.com/FranciscoJoseGarcia/eCommerce-Back"
     }
   ]
 }

@@ -1,10 +1,13 @@
 ---
 import Section from "../Section.astro"
 
-import { work } from "@cv"
+import { basics, work } from "@cv"
+
+const isEnglish = basics.summary.startsWith("Full Stack")
+const title = isEnglish ? "Work Experience" : "Experiencia laboral"
 ---
 
-<Section title="Experiencia laboral">
+<Section title={title}>
   <ul>
     {
       work.map(
@@ -42,7 +45,13 @@ import { work } from "@cv"
                 </header>
 
                 <footer>
-                  <p>{summary}</p>
+                  <p>
+                    {summary.split('. ').filter(Boolean).map((sentence, idx, arr) => (
+                      idx < arr.length - 1
+                        ? <>{sentence.trim().endsWith('.') ? sentence.trim() : sentence.trim() + '.'}<br /></>
+                        : sentence.trim().endsWith('.') ? sentence.trim() : sentence.trim() + '.'
+                    ))}
+                  </p>
                 </footer>
               </article>
             </li>
@@ -119,6 +128,10 @@ import { work } from "@cv"
 
   [data-title] {
     position: relative;
+  }
+
+  footer p {
+    text-align: justify;
   }
 
   @media (width <= 700px) {

@@ -3,9 +3,19 @@ import Section from "../Section.astro"
 
 import { basics } from "@cv"
 const { summary } = basics
+
+// Detectar idioma basándose en el summary
+const isEnglish = summary.startsWith("Full Stack")
+const title = isEnglish ? "About me" : "Sobre mí"
 ---
 
-<Section title="Sobre mí">
+<style>
+  p, div {
+    text-align: justify;
+  }
+</style>
+
+<Section title={title}>
   <p>
     {summary}
   </p>
